@@ -1,0 +1,29 @@
+Step 1: Navigate to Quality >> Test Cases
+
+Step 2: Select “Actions” >> click on “Import Test Cases…” link
+
+You will get a window where you can see a link called “import template”
+
+Step 3: Click on “import template” and download the excel template and provide data as shown in the image below and save in your hard drive.
+
+Add object Type as “Test Case” and provide the details. Here, only Object Type and Name are only two mandatory fields and 
+remaining other columns we can add if we want to provide those details and import it to Rally.
+
+As we have to import test steps also, for that provide step details with Object Type as “Test Case Step” and provide 
+index as step number and test case line number in Test Case column like line[2] for first test case as shown below to map
+ test steps to a specific test case. Likewise, add as many test cases you want details of and save the data.
+ 
+ Step 4: Browse the file from the import window and click on the “Validate” button to check for any errors.
+
+Step 5: Once the validation is successful, a window will appear with the Import button.
+
+Once the import is successful, it will show Import successful message. Close the window.
+
+You can open the Quality >> Test Cases page and verify the new test cases added. Also, you can check by searching the Work Product
+ (User Story) and verify if the test cases are associated with it as per the data provided.
+
+Apart from the above process, we can also install Excel Rally add-in and connect to Rally from the excel and export the test cases to Rally.
+
+
+Routing Service --- no header but also displaying
+payload service --- no header not displaying subscriberId - null 
